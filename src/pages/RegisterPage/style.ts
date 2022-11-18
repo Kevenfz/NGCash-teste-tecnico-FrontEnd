@@ -8,13 +8,14 @@ export const MainSection = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
+    
   `}
 `;
 
 export const MidField = styled.div`
   ${({ theme }) => css`
-    width: 100%;
-    height: 70%;
+    width: 65%;
+    height: 71%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,6 +24,8 @@ export const MidField = styled.div`
     background-size: contain;
     background-repeat: repeat;
     gap: 2rem;
+    border-radius: 1rem;
+
   `}
 `;
 
@@ -35,6 +38,7 @@ export const LogoField = styled.div`
     align-items: center;
     justify-content: flex-start;
     background-color: black;
+    border-radius: 1rem;
   `}
 `;
 
@@ -42,22 +46,22 @@ export const LogoNG = styled.img`
   ${({ theme }) => css`
     position: absolute;
     width: 20rem;
-    left: 18rem
+    left: 5rem
     /* height: 10rem; */
   `}
 `;
 
 export const ModalField = styled.div`
   ${({ theme }) => css`
-    width: 67%;
-    height: 55%;
+    width: 78%;
+    height: 70%;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000000ef;
+    background-color: #ffffffff;
     border-radius: 1rem;
-    /* margin-bottom: 1rem; */
+    margin-bottom: 1.5rem;
   `}
 `;
 
@@ -70,11 +74,13 @@ export const InfoSpace = styled.div`
   `}
 `;
 
-export const DogImg = styled.img`
+export const ImgModal = styled.img`
   ${({ theme }) => css`
     position: absolute;
-    top: 6rem;
-    left: 45rem;
-    width: 62rem;
+    top: 22rem;
+    left: 58rem;
+    width: 29rem;
+    /* height: 51rem; */
+
   `}
 `;
