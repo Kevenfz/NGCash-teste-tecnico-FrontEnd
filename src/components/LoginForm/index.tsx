@@ -8,6 +8,7 @@ export const LoginForm = () => {
   return (
     <div>
         <S.InputLoginField >
+          <S.TitleLoginModal>Login</S.TitleLoginModal>
           <S.InputLabelLogin>
             <S.LabelLogin className="label" htmlFor="email">
               Nome de usuário ou e-mail

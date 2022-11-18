@@ -46,7 +46,7 @@ export const LogoNG = styled.img`
   ${({ theme }) => css`
     position: absolute;
     width: 20rem;
-    left: 5rem
+    left: 14.5rem
     /* height: 10rem; */
   `}
 `;
@@ -54,7 +54,7 @@ export const LogoNG = styled.img`
 export const ModalField = styled.div`
   ${({ theme }) => css`
     width: 78%;
-    height: 70%;
+    height: 68%;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -62,6 +62,7 @@ export const ModalField = styled.div`
     background-color: #ffffffff;
     border-radius: 1rem;
     margin-bottom: 1.5rem;
+    margin-top: -1rem
   `}
 `;
 

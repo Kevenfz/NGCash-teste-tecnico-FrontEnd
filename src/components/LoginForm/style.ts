@@ -9,6 +9,14 @@ export const InputLoginField = styled.form`
     gap: 1.5rem;
     width: 100%;
     margin-top: .5rem;
+    font-family: ${theme.constants.fontFamily};
+  `}
+`;
+
+export const TitleLoginModal = styled.h1`
+  ${({ theme }) => css`
+    font-size: ${theme.constants.fontSizeBtnLoginForm};
+    color: ${theme.colors.primaryColor};
   `}
 `;
 
@@ -19,7 +27,7 @@ export const InputLabelLogin = styled.div`
     gap: 0.3rem;
     margin-bottom: 1rem;
     .label {
-      font-family: ${theme.constants.fontSizeLoginForm};
+      font-family: ${theme.constants.fontFamily};
       color: ${theme.colors.primaryColor};
     }
   `}
@@ -27,7 +35,7 @@ export const InputLabelLogin = styled.div`
 
 export const LabelLogin = styled.label`
   ${({ theme }) => css`
-    font-size: ${theme.constants.fontSizeLoginForm};
+    font-size: ${theme.constants.fontSizeLabelForm};
     font-family: ${theme.constants.fontFamily};
     font-weight: ${theme.constants.fontWeigthBold};
     color: ${theme.colors.primaryColor};
