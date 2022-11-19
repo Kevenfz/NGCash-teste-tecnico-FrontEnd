@@ -12,6 +12,20 @@ export const MainSection = styled.section`
   `}
 `;
 
+export const IconBack = styled.img`
+ ${({ theme }) => css`
+    position: absolute;
+    width: 4rem;
+    top: 2.5rem;
+    left: 3rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    :hover {
+      transform: scale(1.08);
+    }
+  `}
+`
+
 export const MidField = styled.div`
   ${({ theme }) => css`
     width: 65%;
@@ -46,7 +60,8 @@ export const LogoNG = styled.img`
   ${({ theme }) => css`
     position: absolute;
     width: 20rem;
-    left: 14.5rem
+    left: 14.5rem;
+    cursor: pointer;
     /* height: 10rem; */
   `}
 `;
