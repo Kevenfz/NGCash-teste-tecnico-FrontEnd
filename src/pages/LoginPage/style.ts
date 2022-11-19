@@ -78,7 +78,7 @@ export const DogImg = styled.img`
   ${({ theme }) => css`
     position: absolute;
     top: 6rem;
-    left: 45rem;
+    left: 48rem;
     width: 62rem;
   `}
 `;

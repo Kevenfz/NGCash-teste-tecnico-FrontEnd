@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import * as S from "./style";
 import Logo from "../../assets/Icons/LogoNGCash.png";
 import Doguinho from "../../assets/Icons/NGDoguinho.png";
 import { LoginForm } from "../../components/LoginForm";
+import { ToastContainer } from "react-toastify";
 
 export const LoginPage = () => {
   return (
@@ -13,12 +14,13 @@ export const LoginPage = () => {
         </S.LogoField>
 
         <S.ModalField>
-          
-          <S.InfoSpace >
+          <S.InfoSpace>
             <LoginForm />
-            <S.DogImg src={Doguinho} alt="Imagem ilustrativa campanha NG, Doguinho" />
+            <S.DogImg
+              src={Doguinho}
+              alt="Imagem ilustrativa campanha NG, Doguinho"
+            />
           </S.InfoSpace>
-
         </S.ModalField>
       </S.MidField>
     </S.MainSection>
