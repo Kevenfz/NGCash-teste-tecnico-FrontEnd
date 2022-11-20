@@ -36,9 +36,9 @@ export const HeaderComponent = (props: { userLoged: UserType }) => {
       </S.OptionsHeader>
 
       <S.UserSpace>
-        <S.Options>
+        <S.UserOption>
           {props.userLoged ? `Olá, ${props.userLoged.user}` : ""}
-        </S.Options>
+        </S.UserOption>
         {props.userLoged ? (
           <S.IconLogout
             onClick={LogoutBtn}

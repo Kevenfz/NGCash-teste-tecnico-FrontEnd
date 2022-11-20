@@ -41,6 +41,7 @@ body,
 }
 
 .test {
-  background-color: #878787ef;
+  background-color: #c7c7c7ef;
   line-height: 1px;
+  cursor: context-menu;
 }

@@ -36,7 +36,20 @@ export const Options = styled.p`
   ${({ theme }) => css`
     font-family: ${theme.constants.fontFamily};
     font-weight: ${theme.constants.fontWeigthBold};
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    :hover{
+      color: #abababef;
+    }
   `}
+`;
+
+export const UserOption = styled.p`
+${({ theme }) => css`
+  font-family: ${theme.constants.fontFamily};
+  font-weight: ${theme.constants.fontWeigthBold};
+  cursor: context-menu;
+`}
 `;
 
 export const UserSpace = styled.div`
