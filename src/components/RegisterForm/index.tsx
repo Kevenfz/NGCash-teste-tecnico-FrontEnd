@@ -31,7 +31,8 @@ export const RegisterForm = () => {
       const dataUser = JSON.parse(data);
 
       Users.push(dataUser);
-      toast.success("Cadastro realizado com sucesso!")
+      toast.success("Cadastro realizado com sucesso!");
+      
       setTimeout(() => {
         navigate("/");
       }, 2000);

@@ -10,13 +10,12 @@ export const MainSpace = styled.section`
     justify-content: center;
     box-sizing: border-box;
     gap: 3rem;
-    /* background-color: GREEN; */
   `}
 `;
 
 export const ValueSpace = styled.div`
   ${({ theme }) => css`
-    width: 55%;
+    width: 59%;
     height: 15%;
     display: flex;
     align-items: center;
@@ -35,7 +34,7 @@ export const BtnSpace = styled.div`
     align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 1rem;
+    gap: 3rem;
   `}
 `;
 

@@ -38,8 +38,6 @@ export const LoginForm = () => {
     users.map((user) => {
       if (user.email == values.email && user.password == values.password) {
         toast.success("Login efetuado com sucesso!");
-        console.log("Deu certo!");
-        
         localStorage.setItem('user', JSON.stringify(user));
 
         setTimeout(() => {
@@ -51,9 +49,6 @@ export const LoginForm = () => {
         console.log("Deu errado!");
       }
     });
-
-    // console.log("map", users);
-    // console.log("values", values);
   };
 
   return (

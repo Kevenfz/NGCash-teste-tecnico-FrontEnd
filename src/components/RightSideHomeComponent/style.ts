@@ -10,7 +10,6 @@ export const MainSpace = styled.section`
     justify-content: center;
     box-sizing: border-box;
     gap: 3rem;
-    /* background-color: GREEN; */
   `}
 `;
 
@@ -27,6 +26,7 @@ export const ModalPix = styled.div`
     box-sizing: border-box;
     gap: 3rem;
     background-color: #fff;
+    /* margin-right: 10rem; */
   `}
 `;
 

@@ -66,7 +66,7 @@ const BtnHomePage = () => css`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 17rem;
+    width: 15rem;
     padding: 0.7rem;
     border: 2px solid black;
     border-radius: 1rem;
@@ -80,6 +80,7 @@ const BtnHomePage = () => css`
     margin-bottom: 0.7rem;
     -webkit-box-shadow: 11px 10px 0px -2px #000;
     box-shadow: 11px 10px 0px -2px #000;
+    cursor: pointer;
     :hover {
       -webkit-box-shadow: 11px 10px 0px -2px #7431f3;
       box-shadow: 11px 10px 0px -2px #7431f3;
