@@ -57,8 +57,9 @@ Inicie o servidor
 
 <br> 
 
-## Usuario mockado login
+## User mock login
 
+Crie sua conta ou logue com esta opção: <br><br>
 login: admin@gmail.com<br> 
 password: Abc1234*
 
