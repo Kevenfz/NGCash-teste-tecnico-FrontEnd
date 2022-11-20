@@ -60,7 +60,7 @@ export const UserSpace = styled.div`
     gap: 1rem;
     font-family: ${theme.constants.fontFamily};
     font-weight: ${theme.constants.fontWeigthBold};
-    margin-left: 38rem;
+    margin-left: 35rem;
   `}
 `;
 

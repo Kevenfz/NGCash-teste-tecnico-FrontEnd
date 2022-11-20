@@ -15,8 +15,9 @@ export const HeaderComponent = (props: { userLoged: UserType }) => {
   const navigate = useNavigate();
 
   const LogoutBtn = () => {
+    localStorage.clear();
     navigate("/");
-    toast("Sessão encerrada");
+    toast.success("Sessão encerrada, dados apagados do localStorage!");
   };
 
   useEffect(() => {

@@ -36,7 +36,7 @@ export const LoginForm = () => {
     event.preventDefault();
     
     users.map((user) => {
-      if (user.email == values.email && user.password == values.password) {
+      if (values.email === user.email && values.password === user.password) {
         toast.success("Login efetuado com sucesso!");
         localStorage.setItem('user', JSON.stringify(user));
 
@@ -44,11 +44,11 @@ export const LoginForm = () => {
           navigate("/home");
         }, 2000);
 
-      } else if (user.email != values.email && user.password != values.password) {
+      } else {
         toast.error("Email ou senha inválidos!");
-        console.log("Deu errado!");
       }
     });
+    
   };
 
   return (

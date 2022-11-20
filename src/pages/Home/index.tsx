@@ -29,12 +29,14 @@ export const Home = () => {
 
   return (
     <S.MainSection>
+      
       <HeaderComponent userLoged={userLogged} />
 
       <S.InfoSpace>
         <LeftSideHomeComponent />
         <RightSideHomeComponent />
       </S.InfoSpace>
+
     </S.MainSection>
   );
 };
