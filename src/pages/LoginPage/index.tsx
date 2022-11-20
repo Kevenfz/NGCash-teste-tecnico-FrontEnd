@@ -1,16 +1,16 @@
 import React, { useState } from "react";
-import * as S from "./style";
-import Logo from "../../assets/Icons/LogoNGCash.png";
-import Doguinho from "../../assets/Icons/NGDoguinho.png";
 import { LoginForm } from "../../components/LoginForm";
-import { ToastContainer } from "react-toastify";
+import Doguinho from "../../assets/Icons/NGDoguinho.png";
+import Logo from "../../assets/Icons/LogoNGCash.png";
+import * as S from "./style";
+
 
 export const LoginPage = () => {
   return (
     <S.MainSection>
       <S.MidField>
         <S.LogoField>
-          <S.LogoNG src={Logo} />
+          <S.LogoNG src={Logo} alt="Logo NG.CASH" />
         </S.LogoField>
 
         <S.ModalField>

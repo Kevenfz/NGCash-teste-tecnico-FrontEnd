@@ -33,16 +33,11 @@ export const RegisterForm = () => {
       Users.push(dataUser);
       toast.success("Cadastro realizado com sucesso!")
       setTimeout(() => {
-        navigate("/login");
+        navigate("/");
       }, 2000);
 
     }
   };
-
-  useEffect(() => {
-    console.log(Users);
-    
-  }, []);
 
   return (
     <div>

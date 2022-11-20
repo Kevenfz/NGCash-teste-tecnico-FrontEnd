@@ -1,4 +1,3 @@
-import React from "react";
 import { RegisterForm } from "../../components/RegisterForm";
 import { useNavigate } from "react-router";
 import ImgModal from "../../assets/Icons/WhatsApp_Image_2022-11-16_at_00.38.44-removebg-preview.png";
@@ -14,7 +13,7 @@ export const RegisterPage = () => {
       <S.IconBack onClick={() => history.back()} src={IconBack} alt="Icone para voltar à pagina anterior" />
       <S.MidField>
         <S.LogoField>
-          <S.LogoNG onClick={() => navigate("/login")} src={Logo} />
+          <S.LogoNG onClick={() => navigate("/")} src={Logo} />
         </S.LogoField>
 
         <S.ModalField>

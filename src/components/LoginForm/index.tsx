@@ -1,9 +1,9 @@
-import * as S from "./style";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { UserType } from "../../types/types";
 import { Users } from "../../mocks/users";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
+import * as S from "./style";
 
 export const LoginForm = () => {
   const [values, setValues] = useState<UserType>({
@@ -13,6 +13,7 @@ export const LoginForm = () => {
 
   const [users, setUsers] = useState<UserType[]>([
     {
+      user:"",
       email: "",
       password: "",
     },
@@ -39,8 +40,10 @@ export const LoginForm = () => {
         toast.success("Login efetuado com sucesso!");
         console.log("Deu certo!");
         
+        localStorage.setItem('user', JSON.stringify(user));
+
         setTimeout(() => {
-          navigate("/register");
+          navigate("/home");
         }, 2000);
 
       } else if (user.email != values.email && user.password != values.password) {
