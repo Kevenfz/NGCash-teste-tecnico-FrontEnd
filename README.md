@@ -27,7 +27,7 @@ Entre na pasta do projeto pelo Visual Studio, Abra o terminal do visual Studio e
 vá para o diretório do projeto com o comando:
 
 ```bash
-  cd NGCash-teste-tecnico
+  cd ngcash-teste-tecnico
 ```
 
 Instale as dependências
