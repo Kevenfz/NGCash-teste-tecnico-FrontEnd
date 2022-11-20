@@ -65,6 +65,13 @@ password: Abc1234*
 
 <br> 
 
+## Figma
+
+Link da prototipação feita no Figma: https://www.figma.com/file/8CSg1kzILDWT7Juv4HbBUX/NG.CASH-TEST-FRONT-END?node-id=0%3A1&t=fkds18lGosMAzRjT-1
+
+<br> 
+
+
 ## Stack utilizada ⚙
 <br> 
 
