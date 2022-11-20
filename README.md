@@ -55,6 +55,14 @@ Inicie o servidor
 
 ![image](https://github.com/seven-cloudwalk/frontend-seven-cloudwalk/blob/main/src/assets/Images/serverReact.png)
 
+<br> 
+
+## Usuario mockado login
+
+login: admin@gmail.com<br> 
+password: Abc1234*
+
+<br> 
 
 ## Stack utilizada ⚙
 <br> 
